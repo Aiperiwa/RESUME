@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: #eee;
+  padding: 20px;
+}
+.nav li {
+  margin-left: 40px;
+}
+.nav li:first-child {
+  margin-left: 0;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.content {
+  font-weight: 700;
+}
+
+.active {
+  color: red;
+  font-weight: 700;
+}
